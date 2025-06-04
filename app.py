@@ -79,7 +79,7 @@ if input_method == "Manual Input":
         poly_qty = st.number_input("📄 Policies Inforce Quantity", min_value=0.0)
     with col2:
         prev_poly_qty = st.number_input("📄 Previous Policies Inforce Quantity", min_value=0.0)
-        loss_ratio = st.number_input("📉 Loss Ratio", min_value=0.0, max_value=1000.0)
+        loss_ratio = st.number_input("📉 Loss Ratio", min_value=0.0)
         growth_rate = st.number_input("📈 Growth Rate (3-Year)", min_value=-1.0)
         active_producers = st.number_input("👥 Active Producers", min_value=0.0)
 
