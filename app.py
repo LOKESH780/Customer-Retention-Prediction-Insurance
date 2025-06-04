@@ -50,8 +50,8 @@ with col3:
         st.rerun()
 
 # === Load Model and Scaler ===
-model = joblib.load('rf_model_insurance.pkl')
-scaler = joblib.load('scaler_insurance.pkl')
+model = joblib.load('rf_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 st.title("📈 Customer Retention Ratio Predictor")
 
