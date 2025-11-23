@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (if large, consider using Git LFS)
+# *.pkl
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Data files
+*.csv
+data/
+datasets/
+
+# Temporary files
+*.tmp
+temp/
+
+# AWS Keys and Credentials
+*.pem
+retention-predictor-key.pem
+*.key
+.env
+.env.local
+.aws/
+aws-credentials.txt
+*credentials*.txt
+*secret*.txt
+*access*.txt
+
+# Deployment scripts output
+*.pyc
